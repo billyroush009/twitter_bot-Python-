@@ -2,10 +2,10 @@ import tweepy
 import time
 
 ##setting API and token value variables, provided from Twitter
-consumer_key = "pRGjE5nAdzf7PkWGpXvVItzl5"
-consumer_secret = "DzjRKpxiix7MHq9RL5WQqvjPJBN0OLA75oHEB7tx85N54Y3JgX"
-access_token = "1392187002594988037-j1UcadYrp2KaF5gCW1avKAiUfbsAd3"
-access_token_secret = "BWSfGd1cNWLFr9mGxVFFBqcWjoO61ev6SAKkj8CTTMBap"
+consumer_key = "xxxxxxxxxxxxxxxxxxxxxxxx"
+consumer_secret = "xxxxxxxxxxxxxxxxxxxxxxxx"
+access_token = "xxxxxxxxxxxxxxxxxxxxxxxx"
+access_token_secret = "xxxxxxxxxxxxxxxxxxxxxxxx"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
